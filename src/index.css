@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+:root {
+  --km-navy: #06152f;
+  --km-blue: #008cff;
+  --km-cyan: #00d9ff;
+  --km-cyan-soft: rgba(0, 217, 255, 0.18);
+  --km-glow: rgba(0, 217, 255, 0.45);
+  --km-white: #ffffff;
+  --km-gray: #94a3b8;
+}
